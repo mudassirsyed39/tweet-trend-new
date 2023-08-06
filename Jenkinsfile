@@ -4,7 +4,7 @@ pipeline {
             label 'maven'
         }
     }
-enviroment {
+environment {
     PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
 }
     stages {
