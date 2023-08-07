@@ -6,6 +6,7 @@ pipeline {
     }
 environment {
     PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
+    PATH = "openjdk-11-jre:$PATH"
 }
     stages {
         stage("build"){
